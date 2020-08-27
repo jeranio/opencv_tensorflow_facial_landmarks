@@ -1,0 +1,49 @@
+{
+  "stringTable": {
+    "0": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/.externalNativeBuild/cmake/release/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=/home/jerry/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jerry/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddetection_based_tracker_EXPORTS -I/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni -isystem /home/jerry/Android/opencv-4.1.2-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC -std=gnu++11"
+  },
+  "buildFiles": [
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../../Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../sdk/native/jni/abi-x86/OpenCVConfig.cmake",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../sdk/native/jni/OpenCVConfig.cmake",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/CMakeLists.txt",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../../Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../sdk/native/jni/abi-x86/OpenCVModules.cmake",
+    "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/../../../sdk/native/jni/abi-x86/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/home/jerry/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "detection_based_tracker-Release-x86": {
+      "buildCommand": "/home/jerry/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/.externalNativeBuild/cmake/release/x86 --target detection_based_tracker",
+      "buildType": "release",
+      "toolchain": "526091251",
+      "abi": "x86",
+      "artifactName": "detection_based_tracker",
+      "files": [
+        {
+          "src": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/DetectionBasedTracker_jni.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/jni/DetectionBasedTracker_jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/cmake/release/obj/x86/libdetection_based_tracker.so"
+    }
+  },
+  "toolchains": {
+    "526091251": {
+      "cppCompilerExecutable": "/home/jerry/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

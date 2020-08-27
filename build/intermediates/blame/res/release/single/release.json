@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/res/merged/release/raw_facial_landmark_mobilenet.tflite.flat",
+        "source": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/res/raw/facial_landmark_mobilenet.tflite"
+    },
+    {
+        "merged": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/res/merged/release/drawable_icon.png.flat",
+        "source": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/res/merged/release/layout_face_detect_surface_view.xml.flat",
+        "source": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/res/layout/face_detect_surface_view.xml"
+    },
+    {
+        "merged": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/res/merged/release/raw_lbpcascade_frontalface.xml.flat",
+        "source": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/res/raw/lbpcascade_frontalface.xml"
+    }
+]

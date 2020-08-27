@@ -1,0 +1,4 @@
+#Tue Aug 25 00:52:14 SAST 2020
+base.0=/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

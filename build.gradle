@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "org.opencv.samples.facedetect"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 301
+        versionName "3.01"
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DOpenCV_DIR=" + project(':opencv').projectDir + "/native/jni",
+"-DANDROID_TOOLCHAIN=clang",
+"-DANDROID_STL=c++_shared"
+                targets "detection_based_tracker"
+            }
+        }
+
+//        ndk {
+//            abiFilters 'arm64-v8a'
+//        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs =['src/assets']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+             path 'jni/CMakeLists.txt'
+        }
+    }
+}
+
+dependencies {
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':opencv')
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.0.0-nightly'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+buildscript {
+    ext.kotlin_version = '1.4.0'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+repositories {
+    mavenCentral()
+}
+

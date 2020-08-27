@@ -1,0 +1,9 @@
+Check for working CXX compiler: /home/jerry/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+Check for working CXX compiler: /home/jerry/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+Detecting CXX compiler ABI info
+Detecting CXX compiler ABI info - done
+Detecting CXX compile features
+Detecting CXX compile features - done
+ANDROID_ABI=x86
+Found OpenCV: /home/jerry/Android/opencv-4.1.2-android-sdk (found version "4.1.2") found components:  opencv_java 
+Configuring done

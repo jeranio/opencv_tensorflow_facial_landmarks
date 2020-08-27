@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-392666402/15-puzzle.iml" filepath="$PROJECT_DIR$/.idea/modules/-392666402/15-puzzle.iml" group="opencv_samples/15-puzzle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-477167029/camera-calibration.iml" filepath="$PROJECT_DIR$/.idea/modules/-477167029/camera-calibration.iml" group="opencv_samples/camera-calibration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-788222776/color-blob-detection.iml" filepath="$PROJECT_DIR$/.idea/modules/-788222776/color-blob-detection.iml" group="opencv_samples/color-blob-detection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/face-detection.iml" filepath="$PROJECT_DIR$/.idea/modules/face-detection.iml" group="opencv_samples/face-detection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-344902245/image-manipulations.iml" filepath="$PROJECT_DIR$/.idea/modules/-344902245/image-manipulations.iml" group="opencv_samples/image-manipulations" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-804846505/opencv.iml" filepath="$PROJECT_DIR$/.idea/modules/-804846505/opencv.iml" group="opencv_samples/opencv" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1394527834/opencv_samples.iml" filepath="$PROJECT_DIR$/.idea/modules/-1394527834/opencv_samples.iml" group="opencv_samples" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1172941889/tutorial-1-camerapreview.iml" filepath="$PROJECT_DIR$/.idea/modules/1172941889/tutorial-1-camerapreview.iml" group="opencv_samples/tutorial-1-camerapreview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712028941/tutorial-2-mixedprocessing.iml" filepath="$PROJECT_DIR$/.idea/modules/712028941/tutorial-2-mixedprocessing.iml" group="opencv_samples/tutorial-2-mixedprocessing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1162805848/tutorial-3-cameracontrol.iml" filepath="$PROJECT_DIR$/.idea/modules/1162805848/tutorial-3-cameracontrol.iml" group="opencv_samples/tutorial-3-cameracontrol" />
+    </modules>
+  </component>
+</project>

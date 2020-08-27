@@ -1,0 +1,37 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/res/merged/release/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/jerry/Android/opencv-4.1.2-android-sdk/sdk/build/intermediates/packaged_res/release/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "24",
+                        "endOffsets": "361"
+                    }
+                },
+                {
+                    "source": "/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "366",
+                        "endColumns": "55",
+                        "endOffsets": "417"
+                    }
+                }
+            ]
+        }
+    ]
+}

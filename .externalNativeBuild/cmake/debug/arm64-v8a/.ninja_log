@@ -1,0 +1,11 @@
+# ninja log v5
+0	871	1598266336	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	fe4ee6b59c4afafc
+872	900	1598266336	/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/arm64-v8a/libdetection_based_tracker.so	8f42a5d9d93e4b98
+1	1080	1598270543	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	fe4ee6b59c4afafc
+1080	1114	1598270543	/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/arm64-v8a/libdetection_based_tracker.so	8f42a5d9d93e4b98
+1	895	1598278533	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	fe4ee6b59c4afafc
+895	930	1598278533	/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/arm64-v8a/libdetection_based_tracker.so	8f42a5d9d93e4b98
+0	972	1598297436	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	fe4ee6b59c4afafc
+972	1010	1598297436	/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/arm64-v8a/libdetection_based_tracker.so	8f42a5d9d93e4b98
+0	940	1598309513	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	fe4ee6b59c4afafc
+940	986	1598309513	/home/jerry/Android/opencv-4.1.2-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/arm64-v8a/libdetection_based_tracker.so	8f42a5d9d93e4b98
